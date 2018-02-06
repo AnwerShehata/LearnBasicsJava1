@@ -139,13 +139,22 @@ public class Main {
 
 //------------------------------ Class Example Level 1 ----------------
 
-       /*
-        Example1 exa = new Example1();
-        exa.site();
+       /* Example1 exa = new Example1();
+        exa.site();*/
 
-*/
+//------------------------------ Class Example Book ----------------
+        Example_Book book_java = new Example_Book("java","anwer",2017,500);
+        Example_Book book_python = new Example_Book("python","Ali",2015,200);
 
-       // anwer shehata
+        book_java.Open_Book();
+        book_java.Print_Info_Book();
+        book_java.Clos_Book();
+
+        System.out.println("-----------------------------------------------");
+
+        book_python.Print_Info_Book();
+
+
 
     }
 
